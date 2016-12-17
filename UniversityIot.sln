@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversityIot.VitocontrolApi", "Source\UniversityIot.VitocontrolApi\UniversityIot.VitocontrolApi.csproj", "{5C7CDFD1-BC67-4BA9-8D07-175178D44538}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{60F970AA-0231-4D1D-AD84-09D5DABB32C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversityIot.VitocontrolApi.Tests", "Source\UniversityIot.VitocontrolApi.Tests\UniversityIot.VitocontrolApi.Tests.csproj", "{EFFE36DF-CDD3-45B3-9C26-01A28441B055}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Production|Any CPU = Production|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Staging|Any CPU = Staging|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C7CDFD1-BC67-4BA9-8D07-175178D44538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C7CDFD1-BC67-4BA9-8D07-175178D44538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C7CDFD1-BC67-4BA9-8D07-175178D44538}.Production|Any CPU.ActiveCfg = Staging|Any CPU
+		{5C7CDFD1-BC67-4BA9-8D07-175178D44538}.Production|Any CPU.Build.0 = Staging|Any CPU
+		{5C7CDFD1-BC67-4BA9-8D07-175178D44538}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C7CDFD1-BC67-4BA9-8D07-175178D44538}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{5C7CDFD1-BC67-4BA9-8D07-175178D44538}.Staging|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C7CDFD1-BC67-4BA9-8D07-175178D44538}.Staging|Any CPU.Build.0 = Debug|Any CPU
+		{EFFE36DF-CDD3-45B3-9C26-01A28441B055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFFE36DF-CDD3-45B3-9C26-01A28441B055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFFE36DF-CDD3-45B3-9C26-01A28441B055}.Production|Any CPU.ActiveCfg = Production|Any CPU
+		{EFFE36DF-CDD3-45B3-9C26-01A28441B055}.Production|Any CPU.Build.0 = Production|Any CPU
+		{EFFE36DF-CDD3-45B3-9C26-01A28441B055}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFFE36DF-CDD3-45B3-9C26-01A28441B055}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EFFE36DF-CDD3-45B3-9C26-01A28441B055}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{EFFE36DF-CDD3-45B3-9C26-01A28441B055}.Staging|Any CPU.Build.0 = Staging|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EFFE36DF-CDD3-45B3-9C26-01A28441B055} = {60F970AA-0231-4D1D-AD84-09D5DABB32C3}
+	EndGlobalSection
+EndGlobal
