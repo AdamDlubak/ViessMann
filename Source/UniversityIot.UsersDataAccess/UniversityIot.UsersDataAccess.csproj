@@ -70,21 +70,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201612172238092_Initial Migration.cs" />
-    <Compile Include="Migrations\201612172238092_Initial Migration.Designer.cs">
-      <DependentUpon>201612172238092_Initial Migration.cs</DependentUpon>
+    <Compile Include="Migrations\201611241001479_Initial.cs" />
+    <Compile Include="Migrations\201611241001479_Initial.Designer.cs">
+      <DependentUpon>201611241001479_Initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201612172239254_Added constraints.cs" />
-    <Compile Include="Migrations\201612172239254_Added constraints.Designer.cs">
-      <DependentUpon>201612172239254_Added constraints.cs</DependentUpon>
+    <Compile Include="Migrations\201611241002486_Constraints.cs" />
+    <Compile Include="Migrations\201611241002486_Constraints.Designer.cs">
+      <DependentUpon>201611241002486_Constraints.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201612172242565_Added Relation.cs" />
-    <Compile Include="Migrations\201612172242565_Added Relation.Designer.cs">
-      <DependentUpon>201612172242565_Added Relation.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201612172244022_Added Relation v2.cs" />
-    <Compile Include="Migrations\201612172244022_Added Relation v2.Designer.cs">
-      <DependentUpon>201612172244022_Added Relation v2.cs</DependentUpon>
+    <Compile Include="Migrations\201611241003400_UserGateways.cs" />
+    <Compile Include="Migrations\201611241003400_UserGateways.Designer.cs">
+      <DependentUpon>201611241003400_UserGateways.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\User.cs" />
@@ -103,17 +99,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201612172238092_Initial Migration.resx">
-      <DependentUpon>201612172238092_Initial Migration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201611241001479_Initial.resx">
+      <DependentUpon>201611241001479_Initial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201612172239254_Added constraints.resx">
-      <DependentUpon>201612172239254_Added constraints.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201611241002486_Constraints.resx">
+      <DependentUpon>201611241002486_Constraints.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201612172242565_Added Relation.resx">
-      <DependentUpon>201612172242565_Added Relation.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201612172244022_Added Relation v2.resx">
-      <DependentUpon>201612172244022_Added Relation v2.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201611241003400_UserGateways.resx">
+      <DependentUpon>201611241003400_UserGateways.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

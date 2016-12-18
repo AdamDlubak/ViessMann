@@ -3,7 +3,7 @@ namespace UniversityIot.UsersDataAccess.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class Addedconstraints : DbMigration
+    public partial class Constraints : DbMigration
     {
         public override void Up()
         {

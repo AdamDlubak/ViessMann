@@ -7,13 +7,13 @@ namespace UniversityIot.UsersDataAccess.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class InitialMigration : IMigrationMetadata
+    public sealed partial class UserGateways : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialMigration));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(UserGateways));
         
         string IMigrationMetadata.Id
         {
-            get { return "201612172238092_Initial Migration"; }
+            get { return "201611241003400_UserGateways"; }
         }
         
         string IMigrationMetadata.Source

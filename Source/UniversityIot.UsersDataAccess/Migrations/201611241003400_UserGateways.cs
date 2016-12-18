@@ -3,7 +3,7 @@ namespace UniversityIot.UsersDataAccess.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class AddedRelation : DbMigration
+    public partial class UserGateways : DbMigration
     {
         public override void Up()
         {

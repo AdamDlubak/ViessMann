@@ -7,13 +7,13 @@ namespace UniversityIot.UsersDataAccess.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class AddedRelationv2 : IMigrationMetadata
+    public sealed partial class Constraints : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddedRelationv2));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Constraints));
         
         string IMigrationMetadata.Id
         {
-            get { return "201612172244022_Added Relation v2"; }
+            get { return "201611241002486_Constraints"; }
         }
         
         string IMigrationMetadata.Source

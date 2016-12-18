@@ -1,10 +1,10 @@
-﻿using System.Data.Entity;
-
-namespace UniversityIot.UsersDataService
+﻿namespace UniversityIot.UsersDataService
 {
+    using System;
+    using System.Data.Entity;
     using System.Threading.Tasks;
-    using UsersDataAccess;
-    using UsersDataAccess.Models;
+    using UniversityIot.UsersDataAccess;
+    using UniversityIot.UsersDataAccess.Models;
 
     public class UsersDataService : IUsersDataService
     {
@@ -13,7 +13,9 @@ namespace UniversityIot.UsersDataService
             using (var context = new UsersContext())
             {
                 context.Users.Add(user);
+
                 await context.SaveChangesAsync();
+
                 return user;
             }
         }
@@ -22,7 +24,9 @@ namespace UniversityIot.UsersDataService
         {
             using (var context = new UsersContext())
             {
-                var user = await context.Users.FirstOrDefaultAsync(x => x.Id == id);
+                var user = await context
+                    .Users
+                    .FirstOrDefaultAsync(x => x.Id == id);
 
                 if (user != null)
                 {
@@ -36,7 +40,10 @@ namespace UniversityIot.UsersDataService
         {
             using (var context = new UsersContext())
             {
-                var user = await context.Users.Include(x => x.UserGateways).FirstOrDefaultAsync(x => x.Id == id);
+                var user = await context
+                    .Users
+                    .Include(x => x.UserGateways)
+                    .FirstOrDefaultAsync(x => x.Id == id);
 
                 return user;
             }
