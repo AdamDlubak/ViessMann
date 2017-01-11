@@ -4,8 +4,10 @@
     using Castle.MicroKernel.Registration;
     using Castle.MicroKernel.SubSystems.Configuration;
     using Castle.Windsor;
+    using UniversityIot.Components;
     using UniversityIot.UsersDataAccess;
     using UniversityIot.UsersDataService;
+    using UniversityIot.UsersService.Mapping;
 
     public class ServicesInstaller : IWindsorInstaller
     {
@@ -21,6 +23,11 @@
                 throw new ArgumentNullException(nameof(container));
             }
 
+            UserServiceMapper.Register();
+
+            container.Register(
+                Component.For<IPasswordEncoder>().ImplementedBy<PasswordEncoder>());
+            
             const string UsersContextLocatorName = "UsersContextLocator";
 
             const string ContextLocatorFieldName = "contextLocator";

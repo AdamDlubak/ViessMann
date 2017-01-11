@@ -1,63 +1,69 @@
 ﻿namespace UniversityIot.UsersDataService
 {
+    using System.Collections.Generic;
+    using System.Threading.Tasks;
     using System;
     using System.Data.Entity;
-    using System.Threading.Tasks;
+    using System.Linq;
+    using System.Linq.Expressions;
+    using UniversityIot.Components;
     using UniversityIot.UsersDataAccess;
     using UniversityIot.UsersDataAccess.Models;
 
     public class UsersDataService : IUsersDataService
     {
-        public async Task<User> AddUserAsync(User user)
+        private readonly Func<UsersContext> contextLocator;
+
+        private readonly IPasswordEncoder passwordEncoder;
+
+        public UsersDataService(Func<UsersContext> contextLocator, IPasswordEncoder passwordEncoder)
         {
-            using (var context = new UsersContext())
-            {
-                context.Users.Add(user);
-
-                await context.SaveChangesAsync();
-
-                return user;
-            }
+            this.contextLocator = contextLocator;
+            this.passwordEncoder = passwordEncoder;
         }
 
-        public async Task DeleteUserAsync(int id)
+        public async Task<User> GetUserAsync(string name)
         {
-            using (var context = new UsersContext())
-            {
-                var user = await context
-                    .Users
-                    .FirstOrDefaultAsync(x => x.Id == id);
-
-                if (user != null)
-                {
-                    context.Users.Remove(user);
-                    await context.SaveChangesAsync();
-                }
-            }
+            var user = await this.GetUserAsync(u => u.Name == name);
+            return user;
         }
 
         public async Task<User> GetUserAsync(int id)
         {
-            using (var context = new UsersContext())
-            {
-                var user = await context
-                    .Users
-                    .Include(x => x.UserGateways)
-                    .FirstOrDefaultAsync(x => x.Id == id);
+            var user = await this.GetUserAsync(u => u.Id == id);
+            return user;
+        }
 
-                return user;
+        public async Task<IEnumerable<int>> GetUsersInstallationsAsync(int userId)
+        {
+            using (var context = this.contextLocator())
+            {
+                var installationIds = await context.Users
+                    .Where(u => u.Id == userId)
+                    .SelectMany(u => u.InstallationIds, (user1, installation) => installation.Id)
+                    .ToListAsync();
+
+                return installationIds;
             }
         }
 
-        public async Task<User> UpdateUserAsync(User user)
+        public async Task<bool> ValidateUserAsync(string name, string password)
         {
-            using (var context = new UsersContext())
+            var user = await this.GetUserAsync(name);
+            if (user == null)
             {
-                context.Users.Attach(user);
-                context.Entry(user).State = EntityState.Modified;
+                return false;
+            }
 
-                await context.SaveChangesAsync();
-
+            var compareHashesResult = this.passwordEncoder.Verify(password, user.Password);
+            return compareHashesResult;
+        }
+        
+        private async Task<User> GetUserAsync(Expression<Func<User, bool>> predicate)
+        {
+            using (var context = this.contextLocator())
+            {
+                var user = await context.Users.FirstOrDefaultAsync(predicate);
                 return user;
             }
         }

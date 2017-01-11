@@ -1,8 +1,9 @@
 namespace UniversityIot.GatewaysDataAccess.Migrations
 {
+    using System;
+    using System.Data.Entity;
     using System.Data.Entity.Migrations;
-    using UniversityIot.Enums;
-    using UniversityIot.GatewaysDataAccess.Models;
+    using System.Linq;
 
     internal sealed class Configuration : DbMigrationsConfiguration<UniversityIot.GatewaysDataAccess.GatewaysContext>
     {
@@ -11,48 +12,20 @@ namespace UniversityIot.GatewaysDataAccess.Migrations
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(GatewaysContext context)
+        protected override void Seed(UniversityIot.GatewaysDataAccess.GatewaysContext context)
         {
-            context.Gateways.AddOrUpdate(
-                new Gateway() {Id = 1, Description = "Vitoconnect 100/1", SerialNumber = "7571381602761103" });
-            context.Gateways.AddOrUpdate(
-                new Gateway() {Id = 2, Description = "Vitoconnect 100/2", SerialNumber = "7571381602761105" });
-            context.Gateways.AddOrUpdate(
-                new Gateway() {Id = 3, Description = "Vitoconnect 100/3", SerialNumber = "7571381602761109" });
-            context.Gateways.AddOrUpdate(
-                new Gateway() { Id = 4, Description = "Heatbox 2/1", SerialNumber = "7571381602761140" });
-            context.Gateways.AddOrUpdate(
-                new Gateway() { Id = 5, Description = "Heatbox 2/2", SerialNumber = "7571381602761142" });
-            context.Gateways.AddOrUpdate(
-                new Gateway() { Id = 6, Description = "Heatbox 2/3", SerialNumber = "7571381602761143" });
+            //  This method will be called after migrating to the latest version.
 
-            context.GatewaySettings.AddOrUpdate(
-                new Datapoint()
-                {
-                    Id = 1,
-                    Description = "Outside temperature",
-                    HexAdress = "5525",
-                    DataType = SettingDataType.Div10,
-                    IsReadonly = true
-                });
-            context.GatewaySettings.AddOrUpdate(
-                new Datapoint()
-                {
-                    Id = 2,
-                    Description = "Inside temperature",
-                    HexAdress = "0896",
-                    DataType = SettingDataType.Div10,
-                    IsReadonly = true
-                });
-            context.GatewaySettings.AddOrUpdate(
-                new Datapoint()
-                {
-                    Id = 3,
-                    Description = "Desired temperature",
-                    HexAdress = "2306",
-                    DataType = SettingDataType.NoConversion,
-                    IsReadonly = false
-                });
+            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
+            //  to avoid creating duplicate seed data. E.g.
+            //
+            //    context.People.AddOrUpdate(
+            //      p => p.FullName,
+            //      new Person { FullName = "Andrew Peters" },
+            //      new Person { FullName = "Brice Lambson" },
+            //      new Person { FullName = "Rowan Miller" }
+            //    );
+            //
         }
     }
 }

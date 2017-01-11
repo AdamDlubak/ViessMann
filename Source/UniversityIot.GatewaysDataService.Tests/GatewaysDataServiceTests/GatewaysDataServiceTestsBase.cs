@@ -5,15 +5,21 @@
     using UniversityIot.Enums;
     using UniversityIot.GatewaysDataAccess;
     using UniversityIot.GatewaysDataAccess.Models;
+    using UniversityIot.Tests.Common.DataAccessMocks;
 
     public class GatewaysDataServiceTestsBase
     {
+        public virtual GatewaysContext CreateContext()
+        {
+            return new GatewaysContextMock();
+        }
+
         public virtual GatewaysDataService GetService()
         {
-            var service = new GatewaysDataService();
+            var service = new GatewaysDataService(() => new GatewaysContextMock());
             return service;
         }
-        
+
         public async Task<Gateway> CreateGateway()
         {
             var gateway = new Gateway
@@ -23,7 +29,7 @@
                 SerialNumber = "Fake serial number"
             };
 
-            using (var context = new GatewaysContext())
+            using (var context = this.CreateContext())
             {
                 context.Gateways.Add(gateway);
                 await context.SaveChangesAsync();
@@ -32,9 +38,9 @@
             return gateway;
         }
 
-        public async Task<Datapoint> CreateGatewaySetting()
+        public async Task<GatewaySetting> CreateGatewaySetting()
         {
-            var gatewaySetting = new Datapoint
+            var gatewaySetting = new GatewaySetting
             {
                 Id = 1,
                 Description = "Fake description",
@@ -43,7 +49,7 @@
                 HexAdress = "123"
             };
 
-            using (var context = new GatewaysContext())
+            using (var context = this.CreateContext())
             {
                 context.GatewaySettings.Add(gatewaySetting);
                 await context.SaveChangesAsync();
@@ -61,10 +67,10 @@
         [TearDown]
         public virtual void Teardown()
         {
-            using (var context = new GatewaysContext())
+            using (var context = this.CreateContext())
             {
                 context.Database.ExecuteSqlCommand("delete from Gateways");
-                context.Database.ExecuteSqlCommand("delete from Datapoints");
+                context.Database.ExecuteSqlCommand("delete from GatewaySettings");
             }
         }
     }

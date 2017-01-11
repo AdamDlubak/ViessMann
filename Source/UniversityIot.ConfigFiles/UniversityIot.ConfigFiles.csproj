@@ -59,18 +59,27 @@
   <ItemGroup>
     <None Include="commonAppSettings.config">
       <TransformOnBuild>true</TransformOnBuild>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </None>
     <None Include="commonAppSettings.Debug.config">
       <DependentUpon>commonAppSettings.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="commonAppSettings.Production.config">
       <DependentUpon>commonAppSettings.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="commonAppSettings.Staging.config">
       <DependentUpon>commonAppSettings.config</DependentUpon>
       <IsTransformFile>True</IsTransformFile>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\SlowCheetah\SlowCheetah.Transforms.targets">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

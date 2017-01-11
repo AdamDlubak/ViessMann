@@ -71,17 +71,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GatewaysContext.cs" />
-    <Compile Include="Migrations\201608171212413_ExtendingGatewaySettings.cs" />
-    <Compile Include="Migrations\201608171212413_ExtendingGatewaySettings.Designer.cs">
-      <DependentUpon>201608171212413_ExtendingGatewaySettings.cs</DependentUpon>
+    <Compile Include="Migrations\201612221431250_Init.cs" />
+    <Compile Include="Migrations\201612221431250_Init.Designer.cs">
+      <DependentUpon>201612221431250_Init.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201611240824294_DatapointTable.cs" />
-    <Compile Include="Migrations\201611240824294_DatapointTable.Designer.cs">
-      <DependentUpon>201611240824294_DatapointTable.cs</DependentUpon>
+    <Compile Include="Migrations\201701111136525_Init2017.cs" />
+    <Compile Include="Migrations\201701111136525_Init2017.Designer.cs">
+      <DependentUpon>201701111136525_Init2017.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701111202225_Init201701.cs" />
+    <Compile Include="Migrations\201701111202225_Init201701.Designer.cs">
+      <DependentUpon>201701111202225_Init201701.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701111219518_201701.cs" />
+    <Compile Include="Migrations\201701111219518_201701.Designer.cs">
+      <DependentUpon>201701111219518_201701.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Gateway.cs" />
-    <Compile Include="Models\Datapoint.cs" />
+    <Compile Include="Models\GatewaySetting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -95,11 +103,17 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201608171212413_ExtendingGatewaySettings.resx">
-      <DependentUpon>201608171212413_ExtendingGatewaySettings.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201612221431250_Init.resx">
+      <DependentUpon>201612221431250_Init.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201611240824294_DatapointTable.resx">
-      <DependentUpon>201611240824294_DatapointTable.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201701111136525_Init2017.resx">
+      <DependentUpon>201701111136525_Init2017.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701111202225_Init201701.resx">
+      <DependentUpon>201701111202225_Init201701.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701111219518_201701.resx">
+      <DependentUpon>201701111219518_201701.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

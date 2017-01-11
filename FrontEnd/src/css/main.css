@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.container {
+  margin: 0 auto;
+  width: 980px;
+  position: relative; }
+  .container.login-container {
+    min-height: 550px; }
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+header {
+  margin-top: 40px;
+  position: relative; }
+  header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    position: absolute;
+    left: 160px;
+    top: 30px; }
+  header .logo img {
+    vertical-align: middle;
+    height: 70px; }
+
+form label {
+  color: #777;
+  margin: 10px 0 0 0; }
+
+form input {
+  width: 500px;
+  height: 25px;
+  margin-bottom: 25px;
+  border: 0;
+  border-bottom: 1px solid #777;
+  font-size: 16px;
+  margin: 10px; }
+  form input.button {
+    font-size: 18px;
+    background: none;
+    width: 70px;
+    height: 35px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    float: right; }
+    form input.button:hover {
+      opacity: 0.6;
+      cursor: pointer; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 90px;
+  background: #333;
+  display: block;
+  width: 100%; }
+  footer p {
+    padding: 20px 0;
+    color: #cacaca;
+    font-size: 16px; }

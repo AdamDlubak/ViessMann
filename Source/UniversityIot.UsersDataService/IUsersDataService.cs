@@ -1,5 +1,6 @@
 ﻿namespace UniversityIot.UsersDataService
 {
+    using System.Collections.Generic;
     using System.Threading.Tasks;
     using UniversityIot.UsersDataAccess.Models;
 
@@ -7,10 +8,10 @@
     {
         Task<User> GetUserAsync(int id);
 
-        Task<User> AddUserAsync(User user);
+        Task<User> GetUserAsync(string name);
+        
+        Task<IEnumerable<int>> GetUsersInstallationsAsync(int userId);
 
-        Task DeleteUserAsync(int id);
-
-        Task<User> UpdateUserAsync(User user);
+        Task<bool> ValidateUserAsync(string name, string password);
     }
 }

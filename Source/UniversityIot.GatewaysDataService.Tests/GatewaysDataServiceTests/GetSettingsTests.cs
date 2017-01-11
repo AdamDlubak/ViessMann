@@ -14,7 +14,7 @@
             var service = this.GetService();
 
             // act
-            var result = await service.GetDatapoints();
+            var result = await service.GetSettings();
 
             // assert
             Assert.IsFalse(result.Any());
@@ -29,7 +29,7 @@
             await this.CreateGatewaySetting();
 
             // act
-            var result = await service.GetDatapoints();
+            var result = await service.GetSettings();
 
             // assert
             Assert.IsTrue(result.Any());

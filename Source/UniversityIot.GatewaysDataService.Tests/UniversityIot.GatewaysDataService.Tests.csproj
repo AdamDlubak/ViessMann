@@ -104,9 +104,10 @@
       <Project>{47327331-667d-4937-874a-23d7d3fd7512}</Project>
       <Name>UniversityIot.GatewaysDataService</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="UpdateTestDb.txt" />
+    <ProjectReference Include="..\UniversityIot.Tests.Common\UniversityIot.Tests.Common.csproj">
+      <Project>{0c4d29e1-0cee-44a8-8406-e5f5fffbefd1}</Project>
+      <Name>UniversityIot.Tests.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

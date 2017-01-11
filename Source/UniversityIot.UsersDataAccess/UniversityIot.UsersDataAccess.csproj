@@ -70,43 +70,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201611241001479_Initial.cs" />
-    <Compile Include="Migrations\201611241001479_Initial.Designer.cs">
-      <DependentUpon>201611241001479_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201612221430523_Init.cs" />
+    <Compile Include="Migrations\201612221430523_Init.Designer.cs">
+      <DependentUpon>201612221430523_Init.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201611241002486_Constraints.cs" />
-    <Compile Include="Migrations\201611241002486_Constraints.Designer.cs">
-      <DependentUpon>201611241002486_Constraints.cs</DependentUpon>
+    <Compile Include="Migrations\201612221501377_InitAzure.cs" />
+    <Compile Include="Migrations\201612221501377_InitAzure.Designer.cs">
+      <DependentUpon>201612221501377_InitAzure.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201611241003400_UserGateways.cs" />
-    <Compile Include="Migrations\201611241003400_UserGateways.Designer.cs">
-      <DependentUpon>201611241003400_UserGateways.cs</DependentUpon>
+    <Compile Include="Migrations\201701111136180_Init2017.cs" />
+    <Compile Include="Migrations\201701111136180_Init2017.Designer.cs">
+      <DependentUpon>201701111136180_Init2017.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\User.cs" />
-    <Compile Include="Models\UserGateway.cs" />
+    <Compile Include="Models\UserInstallation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UsersContext.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UniversityIot.Enums\UniversityIot.Enums.csproj">
-      <Project>{82AA9BFC-B58E-49CA-9416-8296073E96EB}</Project>
-      <Name>UniversityIot.Enums</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201611241001479_Initial.resx">
-      <DependentUpon>201611241001479_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201612221430523_Init.resx">
+      <DependentUpon>201612221430523_Init.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201611241002486_Constraints.resx">
-      <DependentUpon>201611241002486_Constraints.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201612221501377_InitAzure.resx">
+      <DependentUpon>201612221501377_InitAzure.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201611241003400_UserGateways.resx">
-      <DependentUpon>201611241003400_UserGateways.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201701111136180_Init2017.resx">
+      <DependentUpon>201701111136180_Init2017.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

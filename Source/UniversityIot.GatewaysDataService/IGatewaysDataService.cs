@@ -10,8 +10,8 @@
 
         Task<IEnumerable<Gateway>> GetGateways(IEnumerable<int> ids);
 
-        Task<IEnumerable<Datapoint>> GetDatapoints();
+        Task<IEnumerable<GatewaySetting>> GetSettings();
 
-        Task<Datapoint> GetDatapoint(int id);
+        Task<GatewaySetting> GetSetting(int id);
     }
 }

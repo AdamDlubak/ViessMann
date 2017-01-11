@@ -2,111 +2,81 @@
 {
     using System.Threading.Tasks;
     using System.Web.Http;
-    using UsersDataAccess.Models;
-    using UsersDataService;
-    using Models;
+    using AutoMapper;
+    using UniversityIot.Messages;
+    using UniversityIot.UsersDataService;
 
+    /// <summary>
+    /// Users controller
+    /// </summary>
     [RoutePrefix("users")]
     public class UsersController : ApiController
     {
+        /// <summary>
+        /// The users data service
+        /// </summary>
         private readonly IUsersDataService usersDataService;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="UsersController" /> class.
+        /// </summary>
+        /// <param name="usersDataService">The users data service.</param>
         public UsersController(IUsersDataService usersDataService)
         {
             this.usersDataService = usersDataService;
         }
 
-        //---------- Notatka
-        // return Ok("Komunikat do zwrócenia"); --- HTTP 200
-        // return NotFound(); --- HTTP 404
-        // return BadRequest();
-        // Błąd 400 np. błąd walidacji i wtedy z błędami walidacji należy zwrócić
-        // PUT do edycji, numer id i model w parametrach
-
-        [Route("")]
-        public async Task<IHttpActionResult> Get()
+        [Route("verify")]
+        public async Task<IHttpActionResult> Post([FromBody] VerifyUser message)
         {
-            return BadRequest();
+            var isAuthorized = await this.usersDataService.ValidateUserAsync(message.Username, message.Password);
+            if (isAuthorized)
+            {
+                var user = await this.usersDataService.GetUserAsync(message.Username);
+                var mappedUser = Mapper.Map<Messages.User>(user);
+                return Ok(mappedUser);
+            }
+
+            return Unauthorized();
         }
 
-        [Route("{id:int}")]
+        /// <summary>
+        /// Gets the user
+        /// </summary>
+        /// <param name="id">The identifier.</param>
+        /// <returns>
+        /// User model
+        /// </returns>
+        [Route("{id}")]
         public async Task<IHttpActionResult> Get(int id)
         {
-            var user = await usersDataService.GetUserAsync(id);
-            if (user != null)
+            var user = await this.usersDataService.GetUserAsync(id);
+            if (user == null)
             {
-                var userToReturn = MapUser(user);
-                return Ok(userToReturn);
+                return NotFound();
             }
-            return NotFound();
+
+            var mappedUser = Mapper.Map<Messages.User>(user);
+            return Ok(mappedUser);
         }
 
-        [Route("")]
-        public async Task<IHttpActionResult> Post(AddUserViewModel userVM)
+        /// <summary>
+        /// Gets the user
+        /// </summary>
+        /// <param name="id">The identifier.</param>
+        /// <returns>
+        /// User's insallations
+        /// </returns>
+        [Route("{id}/installations")]
+        public async Task<IHttpActionResult> GetInstallations(int id)
         {
-            if (!ModelState.IsValid) return BadRequest(ModelState);
-
-            var addedUser = await usersDataService.AddUserAsync(new User()
+            var installations = await this.usersDataService.GetUsersInstallationsAsync(id);
+            if (installations == null)
             {
-                CustomerNumber = userVM.CustomerNumber,
-                Name = userVM.Name,
-                Password = userVM.Password
-            });
-            var addedUserVM = MapUser(addedUser);
-            return Ok(addedUserVM);
-        }
-
-
-        [HttpDelete]
-        [Route("{id:int}")]
-        public async Task<IHttpActionResult> Delete(int id)
-        {
-            if (await usersDataService.GetUserAsync(id) != null)
-            {
-                await usersDataService.DeleteUserAsync(id);
-                return Ok("Użytkownik usunięty pomyślnie!");
+                return NotFound();
             }
-            return NotFound();
-        }
 
-        [HttpPut]
-        [Route("{id:int}")]
-        public async Task<IHttpActionResult> Put(int id, EditUserViewModel editUserViewModel)
-        {
-            var user = await usersDataService.GetUserAsync(id);
-            if (user != null)
-            {
-                if (!ModelState.IsValid) return BadRequest(ModelState);
-
-                user.CustomerNumber = editUserViewModel.CustomerNumber;
-                await usersDataService.UpdateUserAsync(user);
-                var UserToReturn = MapUser(user);
-
-                return Ok(UserToReturn);
-            }
-            return NotFound();
-        }
-
-        private static UserViewModel MapUser(User user)
-        {
-            var userVM = new UserViewModel()
-            {
-                CustomerNumber = user.CustomerNumber,
-                Id = user.Id,
-                Name = user.Name,
-                Password = user.Password
-            };
-
-            foreach (var userGateway in user.UserGateways)
-            {
-                userVM.UserGateways.Add(new UserGatewayViewModel()
-                {
-                    GatewaySerial = userGateway.GatewaySerial,
-                    Id = userGateway.Id,
-                    AccessType = userGateway.AccessType.ToString()
-                });
-            }
-            return userVM;
+            return Ok(installations);
         }
     }
 }
