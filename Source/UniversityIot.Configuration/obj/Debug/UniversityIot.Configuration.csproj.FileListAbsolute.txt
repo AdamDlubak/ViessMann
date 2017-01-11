@@ -1,0 +1,6 @@
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.Configuration\bin\Debug\UniversityIot.Configuration.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.Configuration\bin\Debug\UniversityIot.Configuration.pdb
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.Configuration\bin\Debug\UniversityIot.Configuration.dll.CodeAnalysisLog.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.Configuration\bin\Debug\UniversityIot.Configuration.dll.lastcodeanalysissucceeded
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.Configuration\obj\Debug\UniversityIot.Configuration.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.Configuration\obj\Debug\UniversityIot.Configuration.pdb

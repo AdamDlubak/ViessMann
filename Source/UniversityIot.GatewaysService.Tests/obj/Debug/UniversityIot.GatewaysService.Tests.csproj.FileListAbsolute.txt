@@ -1,0 +1,6 @@
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.GatewaysService.Tests\bin\Debug\UniversityIot.GatewaysService.Tests.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.GatewaysService.Tests\bin\Debug\UniversityIot.GatewaysService.Tests.pdb
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.GatewaysService.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.GatewaysService.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.GatewaysService.Tests\obj\Debug\UniversityIot.GatewaysService.Tests.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.GatewaysService.Tests\obj\Debug\UniversityIot.GatewaysService.Tests.pdb
