@@ -1,186 +1,154 @@
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\ApplicationInsights.config
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\roslyn\csc.exe
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\roslyn\vbc.exe
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\roslyn\VBCSCompiler.exe
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\UniversityIot.VitocontrolApi.dll.config
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\UniversityIot.VitocontrolApi.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\UniversityIot.VitocontrolApi.pdb
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Antlr3.Runtime.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\EntityFramework.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\EntityFramework.SqlServer.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AI.Web.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.ApplicationInsights.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Cookies.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Facebook.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Google.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.OAuth.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Twitter.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Newtonsoft.Json.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Owin.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Net.Http.Formatting.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Web.Helpers.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.Owin.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.WebHost.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Web.Mvc.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Web.Optimization.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Web.Razor.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.Razor.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\WebGrease.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AI.Web.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.ApplicationInsights.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Newtonsoft.Json.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Net.Http.Formatting.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Web.Helpers.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.WebHost.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Web.Mvc.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Web.Optimization.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Web.Razor.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.Razor.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Antlr3.Runtime.pdb
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\EntityFramework.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\EntityFramework.SqlServer.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Facebook.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Cookies.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Google.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Twitter.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.Owin.xml
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\obj\Debug\UniversityIot.VitocontrolApi.csprojResolveAssemblyReference.cache
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\obj\Debug\UniversityIot.VitocontrolApi.dll
-C:\Users\Adam\Desktop\UniversityIotb\Source\UniversityIot.VitocontrolApi\obj\Debug\UniversityIot.VitocontrolApi.pdb
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\ApplicationInsights.config
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\roslyn\csc.exe
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\roslyn\vbc.exe
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\roslyn\VBCSCompiler.exe
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\UniversityIot.VitocontrolApi.dll.config
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\UniversityIot.VitocontrolApi.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\UniversityIot.VitocontrolApi.pdb
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Antlr3.Runtime.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Castle.Core.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\EntityFramework.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\EntityFramework.SqlServer.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AI.Web.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.ApplicationInsights.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Cookies.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Facebook.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Google.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.OAuth.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Twitter.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Moq.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Newtonsoft.Json.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\nunit.framework.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Owin.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Net.Http.Formatting.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Web.Helpers.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.Owin.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.WebHost.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Web.Mvc.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Web.Optimization.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Web.Razor.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.Razor.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\WebGrease.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Castle.Core.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AI.Web.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.ApplicationInsights.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Moq.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\nunit.framework.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Newtonsoft.Json.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Net.Http.Formatting.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Web.Helpers.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.WebHost.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Web.Mvc.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Web.Optimization.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Web.Razor.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.Razor.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Antlr3.Runtime.pdb
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\EntityFramework.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\EntityFramework.SqlServer.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Facebook.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Cookies.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Google.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Twitter.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.Owin.xml
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\obj\Debug\UniversityIot.VitocontrolApi.csprojResolveAssemblyReference.cache
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\obj\Debug\UniversityIot.VitocontrolApi.dll
-C:\Users\Adam\Documents\_Semestr V\_VieSSMann\UniversityIot\Source\UniversityIot.VitocontrolApi\obj\Debug\UniversityIot.VitocontrolApi.pdb
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\roslyn\csc.exe
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\roslyn\System.Collections.Immutable.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\roslyn\vbc.exe
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\roslyn\VBCSCompiler.exe
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\roslyn\VBCSCompiler.exe.config
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\UniversityIot.VitocontrolApi.dll.config
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\UniversityIot.VitocontrolApi.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\UniversityIot.VitocontrolApi.pdb
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Antlr3.Runtime.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\EntityFramework.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\EntityFramework.SqlServer.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Google.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Newtonsoft.Json.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Owin.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Net.Http.Formatting.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Web.Helpers.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.Owin.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.WebHost.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Web.Mvc.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Web.Optimization.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Web.Razor.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.Deployment.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.Razor.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\WebGrease.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Newtonsoft.Json.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Net.Http.Formatting.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Web.Helpers.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.WebHost.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Web.Mvc.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Web.Optimization.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Web.Razor.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.Deployment.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.Razor.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Antlr3.Runtime.pdb
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\EntityFramework.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\EntityFramework.SqlServer.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Google.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.Owin.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\obj\Debug\UniversityIot.VitocontrolApi.csprojResolveAssemblyReference.cache
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\obj\Debug\UniversityIot.VitocontrolApi.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Lab2\Source\UniversityIot.VitocontrolApi\obj\Debug\UniversityIot.VitocontrolApi.pdb
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\roslyn\csc.exe
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\roslyn\System.Collections.Immutable.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\roslyn\vbc.exe
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\roslyn\VBCSCompiler.exe
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\roslyn\VBCSCompiler.exe.config
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\UniversityIot.VitocontrolApi.dll.config
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\UniversityIot.VitocontrolApi.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\UniversityIot.VitocontrolApi.pdb
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Antlr3.Runtime.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\EntityFramework.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\EntityFramework.SqlServer.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Google.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Newtonsoft.Json.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Owin.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Net.Http.Formatting.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Web.Helpers.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.Owin.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.WebHost.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Web.Mvc.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Web.Optimization.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Web.Razor.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.Deployment.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.Razor.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\WebGrease.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Newtonsoft.Json.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Net.Http.Formatting.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Web.Helpers.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.WebHost.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Web.Mvc.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Web.Optimization.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Web.Razor.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.Deployment.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Web.WebPages.Razor.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Antlr3.Runtime.pdb
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\EntityFramework.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\EntityFramework.SqlServer.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Google.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\bin\System.Web.Http.Owin.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\obj\Debug\UniversityIot.VitocontrolApi.csprojResolveAssemblyReference.cache
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\obj\Debug\UniversityIot.VitocontrolApi.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.VitocontrolApi\obj\Debug\UniversityIot.VitocontrolApi.pdb
