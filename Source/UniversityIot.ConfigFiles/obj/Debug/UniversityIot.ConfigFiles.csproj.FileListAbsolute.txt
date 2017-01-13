@@ -1,0 +1,4 @@
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.ConfigFiles\bin\Debug\UniversityIot.ConfigFiles.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.ConfigFiles\bin\Debug\UniversityIot.ConfigFiles.pdb
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.ConfigFiles\obj\Debug\UniversityIot.ConfigFiles.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.ConfigFiles\obj\Debug\UniversityIot.ConfigFiles.pdb

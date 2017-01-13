@@ -8,8 +8,7 @@ namespace UniversityIot.VitocontrolApi
         {
             // Web API configuration and services
             // Configure Web API to use only bearer token authentication.
-//            config.SuppressDefaultHostAuthentication();
-//            config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
+          //  config.SuppressDefaultHostAuthentication();
 
             // Web API routes
             config.MapHttpAttributeRoutes();
@@ -17,7 +16,7 @@ namespace UniversityIot.VitocontrolApi
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
-                defaults: new {id = RouteParameter.Optional}
+                defaults: new { id = RouteParameter.Optional }
             );
         }
     }

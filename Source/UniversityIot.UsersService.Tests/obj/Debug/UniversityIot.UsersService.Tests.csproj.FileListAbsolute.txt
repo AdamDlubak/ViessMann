@@ -1,0 +1,6 @@
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.UsersService.Tests\bin\Debug\UniversityIot.UsersService.Tests.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.UsersService.Tests\bin\Debug\UniversityIot.UsersService.Tests.pdb
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.UsersService.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.UsersService.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.UsersService.Tests\obj\Debug\UniversityIot.UsersService.Tests.dll
+D:\Documents\_Semestr V\_VieSSMann\Local Repository\Laboratorium 2 - ViessmannUniversityCooperation\Source\UniversityIot.UsersService.Tests\obj\Debug\UniversityIot.UsersService.Tests.pdb
