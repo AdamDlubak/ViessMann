@@ -5,7 +5,7 @@ controllers.controller('loginController', ['$scope', '$http' , '$state', functio
         console.log("Suscscsckces");
         e.preventDefault();
         var authorizationHeader = "Basic " + btoa($scope.userName + ":" + $scope.password);
-    
+     // Komentarz PWR: Protokół Http (z metodą get) i dalej adres do API: http://universityiotvitocontrolapi.azurewebsites.net/users/me
         $http.get('http://universityiotvitocontrolapi.azurewebsites.net/users/me', {
             headers: {
                 Authorization : authorizationHeader
