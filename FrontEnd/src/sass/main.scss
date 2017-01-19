@@ -4,10 +4,16 @@
 @import "common";
 
 // Header style
-@import "layout/header";
+@import "layout/_header";
 
 // Navigation
 @import "layout/navigation";
+
+// Forms
+@import "components/_forms";
+
+// Footer
+@import "layout/_footer";
 
 
 // //RWD style
