@@ -1,9 +1,15 @@
+$bg-color: #1e1e1e;
+$text-color: #9e9e9e;
+
 footer {
-      background-color: #1e1e1e;
+      background-color: $bg-color;
       height: 100px;
       position: absolute;
       bottom: 0px;
       width: 100%;
       left: 0px;
-      color: #9e9e9e;
+      
+      p {
+            color: $text-color;
+      }
 }

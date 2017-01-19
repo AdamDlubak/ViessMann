@@ -30,8 +30,9 @@ footer {
   position: absolute;
   bottom: 0px;
   width: 100%;
-  left: 0px;
-  color: #9e9e9e; }
+  left: 0px; }
+  footer p {
+    color: #9e9e9e; }
 
 input {
   margin: 3px 5px 5px 0;
