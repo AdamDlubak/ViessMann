@@ -1,28 +1,3 @@
-'use strict'
-
-var app = angular.module('app', ['ui.router', 'controllers']);
-
-
-app.config( ['$stateProvider', '$urlRouterProvider' , function($stateProvider, $urlRouterProvider) {
-
-    $stateProvider
-    .state("login", {
-        url: "/login",
-        controller: "loginController",
-        templateUrl: "partials/login.html"
-    })
-
-    
-    .state('temperature', {
-        url: "/temperature",
-        
-        templateUrl: 'partials/temperature.html'
-        
-    });
-
-    $urlRouterProvider.otherwise('/login');
-
-}]);
 var controllers = angular.module('controllers', ['ui.router', 'controllers']);
 
 controllers.controller('loginController', ['$scope', '$http' , '$state', function($scope, $http, $state){

@@ -1,0 +1,30 @@
+$text-color: #000;
+$border-color-buttons: black;
+$border-color-inputs: gray;
+
+
+input {
+    margin: 3px 5px 5px 0;
+    border: 1px solid $border-color-inputs;
+    width: 250px;
+    height: 20px;
+    padding: 5px;
+    color: $text-color;
+
+    &[type="submit"] {
+        height: 40px;
+        border-color: $border-color-buttons;
+        width: 262px;
+        margin-top: 10px;
+        
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    display: block;             
+}
