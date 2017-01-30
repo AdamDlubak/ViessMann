@@ -1,0 +1,11 @@
+C:\Users\Adam\Desktop\PolTrainTest\PolTrainTest\bin\Debug\PolTrainTest.dll
+C:\Users\Adam\Desktop\PolTrainTest\PolTrainTest\bin\Debug\PolTrainTest.pdb
+C:\Users\Adam\Desktop\PolTrainTest\PolTrainTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Adam\Desktop\PolTrainTest\PolTrainTest\bin\Debug\WebDriver.dll
+C:\Users\Adam\Desktop\PolTrainTest\PolTrainTest\bin\Debug\WebDriver.Support.dll
+C:\Users\Adam\Desktop\PolTrainTest\PolTrainTest\bin\Debug\WebDriver.xml
+C:\Users\Adam\Desktop\PolTrainTest\PolTrainTest\bin\Debug\WebDriver.Support.xml
+C:\Users\Adam\Desktop\PolTrainTest\PolTrainTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Adam\Desktop\PolTrainTest\PolTrainTest\obj\Debug\PolTrainTest.csprojResolveAssemblyReference.cache
+C:\Users\Adam\Desktop\PolTrainTest\PolTrainTest\obj\Debug\PolTrainTest.dll
+C:\Users\Adam\Desktop\PolTrainTest\PolTrainTest\obj\Debug\PolTrainTest.pdb

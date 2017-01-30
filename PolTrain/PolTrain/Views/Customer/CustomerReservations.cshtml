@@ -1,0 +1,52 @@
+﻿@using PolTrain.Models
+@model PolTrain.ViewModels.CustomerViewModel.CustomerReservationsViewModel
+@{
+    ViewBag.Title = "Moje rezerwacje";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="title"><h2>@ViewBag.Title</h2></div>
+
+<table>
+    <tr style="background: #1e1e1e; text-align: center;">
+        <td style="width: 20px; padding-left: 7px; text-align: center;">ID</td>
+        <td style="width: 100px">Nazwa połączenia</td>
+        <td style="width: 100px">Odjazd</td>
+        <td style="width: 100px">Przyjazd</td>
+        <td style="width: 100px">Czas podróży</td>
+        <td style="width: 100px">Bilety</td>
+        <td style="width: 100px">Wartość</td>
+        <td style="width: 100px">Czy opłacono</td>
+        <td style="width: 50px; text-align: center">Akcje</td>
+    </tr>
+@foreach (var reservation in Model.Reservations)
+{
+        <tr  style="text-align: center;">
+
+            <td style="width: 20px; padding-left: 7px; text-align: center;">@reservation.ReservationId</td>
+            <td style="width: 100px">@reservation.Tickets.First().Line.Track.TrackName</td>
+            <td style="width: 100px">@reservation.Tickets.First().Line.Arrival</td>
+            <td style="width: 100px">@reservation.Tickets.First().Line.Departure</td>
+            <td style="width: 100px">@reservation.Tickets.First().Line.Track.JourneyTime</td>
+            <td style="width: 100px">
+                @foreach (var ticket in reservation.Tickets)
+                {
+                    <p>@ticket.SeatsAmt szt. - @ticket.Concession.Discount %</p>
+                }
+            </td>
+            <td style="width: 100px">@reservation.ReservationValue zł</td>
+            <td style="width: 100px">@if (reservation.IsPayed)
+                                     {
+                                         <p style="color: green">Tak</p>
+                                     }
+                                     else
+                                     {
+                                         <p style="color: red">Nie</p>
+                                     }</td>
+            <td style="width: 50px; text-align: center">
+                <a href="@Url.Action("Pay", "Customer", new {reservationId = reservation.ReservationId})">Opłać</a>
+            </td>
+        </tr>
+    }
+
+</table>

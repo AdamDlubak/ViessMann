@@ -1,0 +1,95 @@
+﻿@using PolTrain.Models
+@model PolTrain.ViewModels.CustomerViewModel.AddTicketViewModel
+@{
+    ViewBag.Title = "Wyszukane połączenia";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="title">
+    <h2 style="font-family: 'Segoe UI';">@ViewBag.Title</h2>
+</div>
+
+
+<table class="lines-table">
+    <tr style="background: #1e1e1e">
+        <td style="width: 770px;"></td>
+
+    </tr>
+    @foreach (var line in Model.Lines)
+    {
+
+
+
+        using (@Html.BeginForm("AddTicket", "Customer", new { lineId = line.LineId }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+         {
+             <tr style="height: 50px; padding: 5px; font-weight: normal;">
+                 <td style="padding-left: 20px; width: 120px;">Wyjazd:<p style="font-size: 14px; padding: 5px; font-weight: normal; line-height: 16px;"> @line.Arrival</p></td>
+                 <td style="padding-left: 20px; width: 100px;">Czas podróży:<p style="font-size: 14px; padding: 5px; font-weight: normal; line-height: 16px;"> @line.Track.JourneyTime</p></td>
+                 <td style="padding-left: 20px; width: 150px;">Nazwa połączenia: <p style="font-size: 14px; padding: 5px; font-weight: normal; line-height: 16px;"> @line.Track.TrackName</p></td>
+                 <td style="padding-left: 20px; width: 350px;">Pociąg relacji: <p style="font-size: 14px; padding: 5px; font-weight: normal; line-height: 16px;"> @line.Track.StartStation.Name - @line.Track.EndStation.Name</p></td>
+                 <td style="padding-left: 20px; width: 250px;">
+                     <p style="display: flex; justify-content: center; flex-direction: column;">
+                         @Html.LabelFor(o => o.Ticket.SeatsAmt, "Ilość biletów: ")
+                     @Html.TextBoxFor(o => o.Ticket.SeatsAmt, new { style = "width: 30px; margin: 5px" })
+                 </p>
+                 </td>
+
+                 
+                 
+          
+
+
+                 <td></td>
+                 <td style="width: 370px;">
+
+                 @Html.AntiForgeryToken()
+
+                 <div class="error-summary-centered">
+                     @Html.ValidationSummary()
+                 </div>
+
+
+              
+                     <td  style="display: block;">
+                         <input type="submit" value="Rezerwuj" class="submitLink" style="height: 30px; width: 100px; font-weight: bold; float: right; margin-top: -14px; margin-right: 30px;"/>
+                     </td>
+              
+             </tr>
+             <tr style="height: 50px; padding: 5px; border-top: 0px; font-weight: normal;">
+                 <td style="padding-left: 20px; width: 120px">Przyjazd:<p style="font-size: 14px; padding: 5px; font-weight: normal; line-height: 16px; width: 100px;"> @line.Departure</p></td>
+                 <td style="width: 100px;">Cena biletu: <p style="font-size: 14px; padding: 5px; font-weight: normal; line-height: 16px;"> @line.Track.NormalPrice</p></td>
+                 <td style="padding-left: 46px; width: 115px;">Pociąg: <p style="font-size: 14px; padding: 5px; font-weight: normal; line-height: 16px;">
+                      @if (line.Track.ClassLevel == ClassLevel.FirstClass)
+                      {
+                          <p style="font-weight: normal;">1 klasa</p>
+                      }
+                      else
+                      {
+                        <p style="font-weight: normal;">2 klasa</p>
+                      }
+                 </p></td>
+                 <td style="padding-left: 40px; width: 120px;">Wagon restauracyjny: <p style="font-size: 14px; padding: 5px; font-weight: normal; line-height: 16px;">
+    @if (line.Track.Diner == true)
+    {
+    <p style="font-weight: normal;">Tak</p>
+    }
+    else
+    {
+        <p style="font-weight: normal;">Nie</p>
+    }
+                 </p></td>
+
+                 <td style="padding-left: 20px; width: 250px;">
+                     <p style=" display: flex; justify-content: center; flex-direction: column;">
+
+                         @Html.LabelFor(o => o.Ticket.ConcessionId, "Rodzaj ulgi:")
+                         @Html.DropDownListFor(m => m.Ticket.ConcessionId, new SelectList(Model.Concessions, "ConcessionId", "Label", Model.Concessions.First().Label), new { style = "width: 200px; margin: 5px" })
+             </p>
+                 </td>
+             </tr>
+         }
+    }
+
+
+</table>
+<a href="@Url.Action("AddOrEditLine", "Manage")" style="margin-top: 20px; font-weight: bold; display: block;">Add New</a>

@@ -1,0 +1,91 @@
+﻿@model PolTrain.ViewModels.AccountViewModel.RegisterViewModel
+
+@{
+    ViewBag.Title = "Register";
+}
+<div>
+
+    @using (@Html.BeginForm("Register", "Account"))
+    {
+        @Html.AntiForgeryToken()
+
+        <div id="login-error">
+            @Html.ValidationMessage("loginerror", "")
+            @Html.ValidationSummary()
+        </div>
+
+        <table class="add-edit-table">
+            <tr>
+                <td>@Html.LabelFor(o => o.Email, "Adres e-mail:")</td>
+                <td>
+                    @Html.TextBoxFor(o => o.Email)
+                    <div class="login-validation-message">
+                        @Html.ValidationMessageFor(o => o.Email)
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.FirstName, "Imię:")</td>
+                <td>
+                    @Html.TextBoxFor(o => o.FirstName)
+                    <div class="login-validation-message">
+                        @Html.ValidationMessageFor(o => o.FirstName)
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.LastName, "Nazwisko:")</td>
+                <td>
+                    @Html.TextBoxFor(o => o.LastName)
+                    <div class="login-validation-message">
+                        @Html.ValidationMessageFor(o => o.LastName)
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.PhoneNumber, "Numer telefonu:")</td>
+                <td>
+                    @Html.TextBoxFor(o => o.PhoneNumber)
+                    <div class="login-validation-message">
+                        @Html.ValidationMessageFor(o => o.PhoneNumber)
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.Password, "Hasło:")</td>
+                <td>
+                    @Html.PasswordFor(o => o.Password)
+                    <div class="login-validation-message">
+                        @Html.ValidationMessageFor(o => o.Password)
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(o => o.ConfirmPassword, "Potwierdź hasło:")
+                </td>
+                <td>
+                    @Html.PasswordFor(o => o.ConfirmPassword)
+                    <div class="login-validation-message">
+                        @Html.ValidationMessageFor(o => o.ConfirmPassword)
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="button">
+                    <input type="submit" value="Zarejestruj" class="submitLink"  style="margin-left: 25px;"/>
+                </td>
+            </tr>
+        </table>
+
+    }
+
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+
+

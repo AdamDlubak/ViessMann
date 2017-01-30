@@ -1,0 +1,83 @@
+﻿@model PolTrain.ViewModels.ManageViewModel.AddOrEditTrackViewModel
+@{
+    ViewBag.Title = "Dodaj lub edytuj trasę";
+    Layout = "~/Views/Shared/ManageLayout.cshtml";
+}
+
+@using (@Html.BeginForm("AddOrEditTrack", "Manage", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="error-summary-centered">
+        @Html.ValidationSummary()
+    </div>
+
+    @Html.HiddenFor(o => o.Track.TrackId)
+
+    <div class="form-add-edit">
+        <h2>@ViewBag.Title</h2>
+
+        <table class="add-edit-table">
+            <tr>
+                <td>@Html.LabelFor(o => o.Track.TrackName, "Nazwa połączenia:")</td>
+                <td>@Html.TextBoxFor(o => o.Track.TrackName)</td>
+                <td>@Html.ValidationMessageFor(o => o.Track.TrackName)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.Track.Length, "Długość trasy:")</td>
+                <td>@Html.TextBoxFor(o => o.Track.Length)</td>
+                <td>@Html.ValidationMessageFor(o => o.Track.Length)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.Track.SeatsAmt, "Ilość dostępnych miejsc:")</td>
+                <td>@Html.TextBoxFor(o => o.Track.SeatsAmt)</td>
+                <td>@Html.ValidationMessageFor(o => o.Track.SeatsAmt)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.Track.NormalPrice, "Cena biletu:")</td>
+                <td>@Html.TextBoxFor(o => o.Track.NormalPrice)</td>
+                <td>@Html.ValidationMessageFor(o => o.Track.NormalPrice)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.Stations, "Stacja początkowa:")</td>
+                <td>@Html.DropDownListFor(m => m.Track.StartStationId, new SelectList(Model.Stations, "StationId", "Name", Model.Stations.First().StationId))</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.Stations, "Stacja końcowa:")</td>
+                <td>@Html.DropDownListFor(m => m.Track.EndStationId, new SelectList(Model.Stations, "StationId", "Name", Model.Stations.First().StationId))</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.Track, "Klasa pociągu:")</td>
+                <td>@Html.EnumDropDownListFor(o => o.Track.ClassLevel, new { @class = "classlevelddl" })</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.Track.JourneyTime, "Czas podróży:")</td>
+                <td>@Html.TextBoxFor(o => o.Track.JourneyTime)</td>
+                <td>@Html.ValidationMessageFor(o => o.Track.JourneyTime)</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.Track.Diner, "Wagon restauracyjny:")</td>
+                <td>@Html.CheckBoxFor(o => o.Track.Diner)</td>
+                <td>@Html.ValidationMessageFor(o => o.Track.Diner)</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="button"><input type="submit" value="Zapisz" class="submitLink" /></td>
+            </tr>
+
+        </table>
+        @if (Model.ConfirmSuccess.HasValue && Model.ConfirmSuccess.Value)
+        {
+            <div class="correct-changes">
+                Pomyślnie wprowadzono zmiany!
+            </div>
+        }
+    </div>
+}
+
+
+

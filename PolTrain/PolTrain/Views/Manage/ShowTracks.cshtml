@@ -1,0 +1,36 @@
+﻿@using PolTrain.Models
+@model PolTrain.ViewModels.ManageViewModel.ShowTracksViewModel
+@{
+    ViewBag.Title = "Pokaż Trasy";
+    Layout = "~/Views/Shared/ManageLayout.cshtml";
+}
+
+<div class="title"><h2>@ViewBag.Title</h2></div>
+<a class="add-new" href="@Url.Action("AddOrEditTrack", "Manage")">Add New</a>
+
+
+<table>
+    <tr style="background: #1e1e1e">
+        <td style="width: 230px; padding-left: 7px;">Nazwa połączenia</td>
+        <td style="width: 220px">Stacja początkowa</td>
+        <td style="width: 220px">Stacja końcowa</td>
+        <td style="width: 100px; text-align: center">Akcje</td>
+    </tr>
+    @foreach (var track in Model.Tracks)
+    {
+        <tr>
+
+            <td style="width: 230px; padding-left: 7px;">@track.TrackName</td>
+            <td style="width: 220px">@Model.Stations.First(o => o.StationId == track.StartStationId).Name</td>
+            <td style="width: 220px">@Model.Stations.First(o => o.StationId == track.EndStationId).Name</td>
+            <td style="width: 50px; text-align: center">
+                <a href="@Url.Action("AddOrEditTrack", "Manage", new {trackId = track.TrackId})">Edytuj</a>
+            </td>
+            <td style="width: 50px; text-align: center">
+                <a href="@Url.Action("DeleteTrack", "Manage", new {trackId = track.TrackId})">Usuń</a>
+            </td>
+        </tr>
+    }
+    <a href="@Url.Action("AddOrEditTrack", "Manage")" style="margin-top: 20px; font-weight: bold; display: block;">Add New</a>
+
+</table>

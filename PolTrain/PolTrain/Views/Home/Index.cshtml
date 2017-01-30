@@ -1,0 +1,55 @@
+﻿@model PolTrain.ViewModels.HomeViewModel.IndexViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "PolTrain - Szybko i do celu!";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+
+    @using (@Html.BeginForm("FindLines", "Home", FormMethod.Post, new {enctype = "multipart/form-data"}))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="error-summary-centered">
+            @Html.ValidationSummary()
+        </div>
+
+
+        <div class="form-add-edit">
+            <h2>@ViewBag.Title</h2>
+            <table class="add-edit-table">
+                <tr>
+                    <td>@Html.LabelFor(o => o.Station, "Miasto startowe:")</td>
+                    <td>@Html.DropDownListFor(m => m.StartCity, new SelectList(Model.Stations, "City", "City", Model.Stations.First().Name))</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(o => o.Station, "Miasto docelowe:")</td>
+                    <td>@Html.DropDownListFor(m => m.EndCity, new SelectList(Model.Stations, "City", "City", Model.Stations.First().Name))</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(o => o.Arrival, "Godzina wyjazdu:")</td>
+                    <td>@Html.TextBoxFor(o => o.Arrival, new {type = "datetime-local" })</td>
+                    <td>@Html.ValidationMessageFor(o => o.Line.Arrival)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="button"><input type="submit" value="Wyszukaj" class="submitLink"/></td>
+                </tr>
+
+            </table>
+            
+
+
+        </div>
+    }
+            @Html.Partial("LoginPartial")
+</body>
+</html>

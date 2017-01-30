@@ -1,0 +1,6 @@
+// Notatka------------------------------------------------------------------------------------------------------------------------
+ 
+// Przed uruchomieniem testów w osobnym oknie Visual Studio nale¿y uruchomiæ aplikacjê PolTrain (drugi projekt na repozytorium)
+// Wówczas podczas dzia³ania aplikacji mo¿na rozpocz¹æ testy (Projekt PolTrainTest) (wszystkie 3 powinny wykonaæ siê poprawnie). Nie pisa³em wiêcej, gdy¿
+// jest to po prostu duplikacja kodu i konkretnych zachowañ.
+    

@@ -1,0 +1,60 @@
+﻿@model PolTrain.ViewModels.ManageViewModel.AddOrEditLineViewModel
+@{
+    ViewBag.Title = "Dodaj lub edytuj linię";
+    Layout = "~/Views/Shared/ManageLayout.cshtml";
+}
+
+@using (@Html.BeginForm("AddOrEditLine", "Manage", FormMethod.Post, new {enctype = "multipart/form-data"}))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="error-summary-centered">
+        @Html.ValidationSummary()
+    </div>
+
+    @Html.HiddenFor(o => o.Line.LineId)
+
+    <div class="form-add-edit">
+
+
+
+        
+
+
+
+
+
+
+        <h2>@ViewBag.Title</h2>
+        <table class="add-edit-table">
+            <tr>
+                <td>@Html.LabelFor(o => o.Tracks, "Trasa:")</td>
+                <td>@Html.DropDownListFor(m => m.Line.TrackId, new SelectList(Model.Tracks, "Value", "Text", Model.Tracks.First().Value))</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.Line.Departure, "Godzina wyjazdu:")</td>
+                <td>@Html.TextBoxFor(o => o.Line.Departure, new { type = "datatime", @Value = Model.Line.Arrival })</td>
+                <td>@Html.ValidationMessageFor(o => o.Line.Departure)</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.Line.Arrival, "Godzina przyjazdu:")</td>
+                <td>@Html.TextBoxFor(o => o.Line.Arrival, new { type = "datetime", @Value = Model.Line.Arrival})</td>
+
+                <td>@Html.ValidationMessageFor(o => o.Line.Departure)</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="button"><input type="submit" value="Zapisz" class="submitLink"/></td>
+            </tr>
+
+        </table>
+        @if (Model.ConfirmSuccess.HasValue && Model.ConfirmSuccess.Value)
+        {
+            <div class="correct-changes">
+                Pomyślnie wprowadzono zmiany!
+            </div>
+        }
+    </div>
+}

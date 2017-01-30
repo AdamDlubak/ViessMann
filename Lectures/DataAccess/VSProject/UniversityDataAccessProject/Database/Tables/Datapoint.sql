@@ -1,6 +1,0 @@
-﻿CREATE TABLE [dbo].[Datapoint]
-(
-	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1, 1), 
-    [HexAddress] NVARCHAR(4) NOT NULL, 
-    [Name] NVARCHAR(32) NOT NULL
-)

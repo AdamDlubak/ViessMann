@@ -1,0 +1,124 @@
+﻿@using Microsoft.AspNet.Identity
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width" />
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/themes/base/jquery-ui.css")" rel="stylesheet" />
+</head>
+<body>
+    <div class="headerline"></div>
+    <div class="container">
+        <header>
+            <a class="logolayout" href="@Url.Action("Index", "Home")"></a>
+        </header>
+
+        <div class="content-body">
+            <div class="navigation-box">
+                <div class="menu">
+                    <div class="item admin">
+                        @if (Request.IsAuthenticated)
+                        {
+                            <a href="@Url.Action("Index", "Home")" style="font-weight: bold; display: block;">PANEL KLIENTA</a>
+                        }
+                        else
+                        {
+                            <a href="@Url.Action("Index", "Home")" style="font-weight: bold; display: block;">PANEL LOGOWANIA</a>
+                        }
+                    </div>
+                    
+
+    @if (Request.IsAuthenticated)
+    {
+        using (Html.BeginForm("Logoff", "Account", FormMethod.Post))
+        {
+            <div class="item-logged" style="background-image: none; padding-left: 5px; width: 212px;">
+
+                <p style="font-size: 11px; font-weight: normal; text-align: center; font-family: 'Segoe UI';">
+                    Jesteś zalogowany jako: <br>
+                    @Html.AntiForgeryToken()
+                </p>
+                <p style="font-size: 14px; padding: 30px 0 30px 0; text-align: center; font-weight: bold; font-family: 'Segoe UI';">
+                    @User.Identity.GetUserName()
+                </p>
+            </div>
+            <div class="item-logged" style="">
+                <a href="@Url.Action("Index", "Home")">Szukaj Pociągu</a>
+            </div>
+                    <div class="item-logged" style="">
+                        <a href="@Url.Action("CustomerReservations", "Customer")">Moje rezerwacje</a>
+                    </div>
+            <div class="item-logged">
+                <a href="@Url.Action("Index", "Manage")">Moje dane</a>
+            </div>
+            if (User.IsInRole("Admin"))
+            {
+                <div class="item-logged">
+                    <a href="@Url.Action("ShowTracks", "Manage")">Panel Administracyjny</a>
+                </div>
+            }
+
+            <div class="item-logged">
+                <a href="@Url.Action("LogOffNow", "Account")" style="color: #da2318;">Wyloguj Mnie</a>
+
+            </div>
+
+        }
+    }
+    else
+    {
+        <div class="item-logged" style="background-image: none; padding-left: 5px; width: 212px;">
+
+            @Html.Partial("Login")
+</div>
+            }
+
+
+        </div>
+            </div>
+            <div class="content-box">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="linia-czarna"></div>
+        <div class="linia-biala"></div>
+
+        <div class="content">
+            <div id="left">
+                <p>PolTrain - National Railway</p>
+                <span class="line" />
+                <p>ul. Wymyślona 96</p>
+                <span class="line" />
+                <p>00-100 Wrocław</p>
+            </div>
+
+            <div id="center">
+                <p>email: <a href="mailto:biuro@poltrain.pl" style="color: #b1b1b1">biuro@PolTrain.pl</a></p>
+                <span class="line" />
+                <p>tel. 000 111 222</p>
+                <span class="line" />
+                <p>NIP: 52 232 223 18</p>
+            </div>
+
+            <div id="right">
+                <p>&copy; 2016 PolTrain.pl</p>
+                <span class="line" />
+                <p>Wszelkie prawa zastrzeżone</p>
+                <span class="line" />
+                <p>Grafika & Kodowanie: Adam Dłubak</p>
+            </div>
+        </div>
+    </footer><!--koniec div content-->
+
+    @RenderSection("ScriptsBottom", required: false)
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+
+</body>
+</html>

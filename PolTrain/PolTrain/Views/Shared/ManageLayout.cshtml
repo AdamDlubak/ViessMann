@@ -1,0 +1,107 @@
+﻿@using Microsoft.AspNet.Identity
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width"/>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet"/>
+    <link href="@Url.Content("~/Content/themes/base/jquery-ui.css")" rel="stylesheet"/>
+</head>
+<body>
+<div class="headerline"></div>
+<div class="container">
+    <header>
+        <a class="logo" href="@Url.Action("Index", "Home")"></a>
+        <div class="header-right">
+            <div class="user">
+                Jesteś zalogowany jako: <br>
+        @if (Request.IsAuthenticated)
+        {
+            using (Html.BeginForm("Logoff", "Account", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ActionLink(User.Identity.GetUserName(), "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage", @style = "color: #000; font-weight: bold" })
+                <a href="javascript:document.getElementById('logoutForm').submit()" style="color: #da2318">(Wyloguj Mnie)</a>
+            }
+          //   <span style="font-weight: bold;">Adam Dłubak</span>
+
+        }
+            </div>
+            <div class="admin">
+                PANEL ADMINISTRACYJNY
+            </div>
+            
+            
+        </div>
+    </header>
+
+    <div class="content-body">
+        <div class="navigation-box">
+            <div class="menu">
+                <div class="item admin">
+                    <a href="@Url.Action("ShowStations", "Manage")" style="font-weight: bold; display: block;">PANEL ADMINISTRACYJNY</a>
+                </div>
+                <div class="item">
+                    <a href="@Url.Action("ShowStations", "Manage")" style="font-weight: bold; display: block;">Lista Stacji</a>
+                </div>
+                <div class="item">
+                    <a href="@Url.Action("AddOrEditStation", "Manage")" style="font-weight: bold; display: block;">Dodaj Stację</a>
+                </div>
+                <div class="item">
+                    <a href="@Url.Action("ShowTracks", "Manage")" style="font-weight: bold; display: block;">Lista Tras</a>
+                </div>
+                <div class="item">
+                    <a href="@Url.Action("AddOrEditTrack", "Manage")" style="font-weight: bold; display: block;">Dodaj Trasę</a>
+                </div>
+                <div class="item">
+                    <a href="@Url.Action("ShowLines", "Manage")" style="font-weight: bold; display: block;">Lista Linii</a>
+                </div>
+                <div class="item">
+                    <a href="@Url.Action("AddOrEditLine", "Manage")" style="font-weight: bold; display: block;">Dodaj Linię</a>
+                </div>
+            </div>
+        </div>
+        <div class="content-box">
+            @RenderBody()
+        </div>
+    </div>
+</div>
+    <footer>
+    <div class="linia-czarna"></div>
+    <div class="linia-biala"></div>
+
+    <div class="content">
+        <div id="left">
+            <p>PolTrain - National Railway</p>
+            <span class="line" />
+            <p>ul. Wymyślona 96</p>
+            <span class="line" />
+            <p>00-100 Wrocław</p>
+        </div>
+
+        <div id="center">
+            <p>email: <a href="mailto:biuro@poltrain.pl" style="color: #b1b1b1">biuro@PolTrain.pl</a></p>
+            <span class="line" />
+            <p>tel. 000 111 222</p>
+            <span class="line" />
+            <p>NIP: 52 232 223 18</p>
+        </div>
+
+    <div id="right">
+        <p>&copy; 2016 PolTrain.pl</p>
+        <span class="line" />
+        <p>Wszelkie prawa zastrzeżone</p>
+        <span class="line" />
+        <p>Grafika & Kodowanie: Adam Dłubak</p>
+    </div>
+        </div>
+    </footer><!--koniec div content-->
+
+@RenderSection("ScriptsBottom", required: false)
+        <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+
+</body>
+</html>

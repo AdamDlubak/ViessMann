@@ -1,0 +1,30 @@
+﻿@using System.Diagnostics.Eventing.Reader
+@model PolTrain.ViewModels.ManageViewModel.ShowStationsViewModel
+@{
+    ViewBag.Title = "Lista Stacji";
+    Layout = "~/Views/Shared/ManageLayout.cshtml";
+}
+<div class="title"><h2>@ViewBag.Title</h2></div>
+<a class="add-new" href="@Url.Action("AddOrEditStation", "Manage")">Add New</a>
+
+<table>
+    <tr style="background: #1e1e1e">
+        <td style="width: 300px; padding-left: 7px;">Miasto</td>
+        <td style="width: 370px">Stacja</td>
+        <td style="width: 100px; text-align: center">Akcje</td>
+    </tr>
+    @foreach (var station in Model.Stations)
+    {      
+        <tr>
+            <td style="width: 300px; padding-left: 7px;">@station.City</td>
+            <td style="width: 370px">@station.Name</td>
+            <td style="width: 50px; text-align: center;">
+                <a href="@Url.Action("AddOrEditStation", "Manage", new {stationId = station.StationId})">Edytuj</a>
+            </td>
+            <td style="width: 50px; text-align: center">
+                <a href="@Url.Action("DeleteStation", "Manage", new {stationId = station.StationId})">Usuń</a>
+            </td>
+        </tr>
+    }
+
+</table>

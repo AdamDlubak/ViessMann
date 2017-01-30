@@ -1,0 +1,54 @@
+﻿@model PolTrain.ViewModels.ManageViewModel.AddOrEditStationViewModel
+@{
+    if (Model.EditMode)
+    {
+        ViewBag.Title = "Edytuj stację";
+    }
+    else
+    {
+        ViewBag.Title = "Dodaj stację";
+    }
+    Layout = "~/Views/Shared/ManageLayout.cshtml";
+}
+
+
+@using (@Html.BeginForm("AddOrEditStation", "Manage", FormMethod.Post, new {enctype = "multipart/form-data"}))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="error-summary-centered">
+        @Html.ValidationSummary()
+    </div>
+
+    @Html.HiddenFor(o => o.Station.StationId)
+
+    <div class ="form-add-edit">
+        <h2>@ViewBag.Title</h2>
+
+        <table class="add-edit-table">
+            <tr>
+                <td>@Html.LabelFor(o => o.Station.City, "Miasto: ")</td>
+                <td>@Html.TextBoxFor(o => o.Station.City)</td>
+                <td>@Html.ValidationMessageFor(o => o.Station.City)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(o => o.Station.Name, "Nazwa stacji:")</td>
+                <td>@Html.TextBoxFor(o => o.Station.Name)</td>
+                <td>@Html.ValidationMessageFor(o => o.Station.Name)</td>
+            </tr>
+            <tr>
+                <td class="button"><input type="submit" value="Zapisz" class="submitLink"/></td>
+            </tr>
+
+        </table>
+        @if (Model.ConfirmSuccess.HasValue && Model.ConfirmSuccess.Value)
+        {
+            <div class="correct-changes">
+                Pomyślnie wprowadzono zmiany!
+            </div>
+        }
+    </div>
+}
+
+
+
